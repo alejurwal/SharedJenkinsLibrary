@@ -7,11 +7,11 @@ class JobNameInfo{
     this.remotePath = remotePathParam;
     this.jobUrl = jobURLParam;
   }
-def getJobURL(){
+/*def getJobURL(){
     return jobURL;
   }
-  /**Get the remote path for trigger remote and copy artifact remote*/
-  /*def getRemotePath(){
+  //Get the remote path for trigger remote and copy artifact remote
+  def getRemotePath(){
     return remotePath;
   }
   //Get the jenkins job url
