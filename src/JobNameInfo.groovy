@@ -1,6 +1,6 @@
 
 //Class for the object for JobInfo.groovy
-class JobNameInfo{
+class JobNameInfo implements Serializable {
   def remotePath;
   def jobUrl;
   JobNameInfo(remotePathParam, jobURLParam){
