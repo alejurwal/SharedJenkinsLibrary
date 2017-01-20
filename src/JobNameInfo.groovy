@@ -19,7 +19,7 @@ class JobNameInfo implements Serializable {
   //Get the jenkins job url
   
   //GEt the short job name without folder full path
-  @NonCPS
+  /*@NonCPS
   def getShortName(){
     int index = remotePath.lastIndexOf("/");
     if(index != -1){
@@ -27,5 +27,5 @@ class JobNameInfo implements Serializable {
     }else{
       return remotePath;
     }
-  }
+  }*/
 }
