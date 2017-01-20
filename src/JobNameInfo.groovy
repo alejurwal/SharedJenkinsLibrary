@@ -5,7 +5,7 @@ class JobNameInfo implements Serializable {
   string jobUrl;
   
   def getJobURL(){
-    return this.jobURL;
+    return jobURL;
   }
   //Get the remote path for trigger remote and copy artifact remote
   /*@NonCPS
