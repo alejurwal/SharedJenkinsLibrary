@@ -3,11 +3,12 @@
 class JobNameInfo{
   string remotePath;
   string jobUrl;
+  
+  @NonCPS
   JobNameInfo(remotePathParam, jobURLParam){
     this.remotePath = remotePathParam;
     this.jobUrl = jobURLParam;
   }
-  @NonCPS
   def getJobURL(){
     return this.jobURL;
   }
