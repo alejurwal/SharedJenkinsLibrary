@@ -1,5 +1,5 @@
 import groovy.transform.Field;
-import com.ibm.shared.JobNameInfo;
+import com.src.JobNameInfo;
 
 /**This file holds global string constants for jobs in jenkins
 Contains the remotejob path, url and shortname in the JobNameInfo class
