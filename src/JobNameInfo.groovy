@@ -9,12 +9,12 @@ class JobNameInfo implements Serializable {
   }
   @NonCPS
   def getJobURL(){
-    return jobURL;
+    return this.jobURL;
   }
   //Get the remote path for trigger remote and copy artifact remote
   @NonCPS
   def getRemotePath(){
-    return remotePath;
+    return this.remotePath;
   }
   //Get the jenkins job url
   
