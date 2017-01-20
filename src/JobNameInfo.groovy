@@ -1,14 +1,9 @@
 
 //Class for the object for JobInfo.groovy
-class JobNameInfo{
+class JobNameInfo implements Serializable {
   string remotePath;
   string jobUrl;
   
-  @NonCPS
-  JobNameInfo(remotePathParam, jobURLParam){
-    this.remotePath = remotePathParam;
-    this.jobUrl = jobURLParam;
-  }
   def getJobURL(){
     return this.jobURL;
   }
