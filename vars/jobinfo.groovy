@@ -1,6 +1,4 @@
-
-
-import groovy.transform.Field;
+//import groovy.transform.Field;
 
 
 //Class for the object for JobInfo.groovy
