@@ -4,6 +4,7 @@ class JobNameInfo implements Serializable {
   string remotePath;
   string jobUrl;
   
+  @NonCPS
   def getJobURL(){
     return jobURL;
   }
