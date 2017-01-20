@@ -2,6 +2,7 @@ import groovy.transform.Field;
 
 
 //Class for the object for JobInfo.groovy
+@NonCPS
 class JobNameInfo{
   String remotePath;
   String jobUrl;
