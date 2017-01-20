@@ -1,22 +1,25 @@
 
 //Class for the object for JobInfo.groovy
 class JobNameInfo implements Serializable {
-  def remotePath;
-  def jobUrl;
+  final string remotePath;
+  final string jobUrl;
   JobNameInfo(remotePathParam, jobURLParam){
     this.remotePath = remotePathParam;
     this.jobUrl = jobURLParam;
   }
-def getJobURL(){
+  @NonCPS
+  def getJobURL(){
     return jobURL;
   }
   //Get the remote path for trigger remote and copy artifact remote
+  @NonCPS
   def getRemotePath(){
     return remotePath;
   }
   //Get the jenkins job url
   
   //GEt the short job name without folder full path
+  @NonCPS
   def getShortName(){
     int index = remotePath.lastIndexOf("/");
     if(index != -1){
