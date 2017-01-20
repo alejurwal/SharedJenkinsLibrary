@@ -1,8 +1,8 @@
 
 //Class for the object for JobInfo.groovy
 class JobNameInfo implements Serializable {
-  final string remotePath;
-  final string jobUrl;
+  string remotePath;
+  string jobUrl;
   JobNameInfo(remotePathParam, jobURLParam){
     this.remotePath = remotePathParam;
     this.jobUrl = jobURLParam;
