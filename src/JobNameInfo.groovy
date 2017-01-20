@@ -11,13 +11,13 @@ def getJobURL(){
     return jobURL;
   }
   //Get the remote path for trigger remote and copy artifact remote
-  /*def getRemotePath(){
+  def getRemotePath(){
     return remotePath;
   }
   //Get the jenkins job url
   
   //GEt the short job name without folder full path
-  def getShortName(){
+  /*def getShortName(){
     int index = remotePath.lastIndexOf("/");
     if(index != -1){
       return remotePath.substring(index);
