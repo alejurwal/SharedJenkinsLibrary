@@ -17,12 +17,12 @@ def getJobURL(){
   //Get the jenkins job url
   
   //GEt the short job name without folder full path
-  /*def getShortName(){
+  def getShortName(){
     int index = remotePath.lastIndexOf("/");
     if(index != -1){
       return remotePath.substring(index);
     }else{
       return remotePath;
     }
-  }*/
+  }
 }
