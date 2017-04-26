@@ -8,6 +8,7 @@ class JobNameInfo implements Serializable {
   def getJobURL(){
     return jobURL;
   }
+  //TESTING COmmit
   //Get the remote path for trigger remote and copy artifact remote
   /*@NonCPS
   def getRemotePath(){
