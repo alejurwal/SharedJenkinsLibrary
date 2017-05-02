@@ -55,3 +55,8 @@ can access this in pipeilne by calling JenkinsInfo.SEQUOIA.getJobURL();
 
 def TEST = 'FAKE';
 def TEST2 = 'FAKE2';
+
+def echoSomeThings1(def Variable1, def Variable2){
+    echo '${Variable1}'
+    echo '${Variable2}'
+}
