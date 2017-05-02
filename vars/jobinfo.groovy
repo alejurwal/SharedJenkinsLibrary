@@ -8,7 +8,7 @@ import groovy.transform.Field;
 Contains the remotejob path, url and shortname in the JobNameInfo class
 
 can access this in pipeilne by calling JenkinsInfo.SEQUOIA.getJobURL();
-**/
+
 
 @groovy.transform.Field m1InstanceID = "4da607053bc6907ec492da2c4d24f79b"
 @groovy.transform.Field m2InstanceID = "cf9d1fec90aede714f9259d679a706eb"
@@ -51,3 +51,7 @@ can access this in pipeilne by calling JenkinsInfo.SEQUOIA.getJobURL();
   "jenkins://${m2InstanceID}/Admin/Admin Find Duplicate bvt_issues",
   "https://jenkins.swg.usma.ibm.com:8443/m2/job/Admin/view/RTCTools/job/Admin%20Find%20Duplicate%20bvt_issues/"
 );
+**/
+
+def TEST = 'FAKE';
+def TEST2 = 'FAKE2';
