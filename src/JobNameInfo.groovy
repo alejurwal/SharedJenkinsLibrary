@@ -5,8 +5,9 @@ class JobNameInfo implements Serializable {
   string jobUrl;
   
   @NonCPS
-  def getJobURL(){
-    return jobURL;
+  def echoSomeThings(def Variable1, def Variable2){
+    echo '${Variable1}'
+    echo '${Variable2}'
   }
   //TESTING COmmit
   //Get the remote path for trigger remote and copy artifact remote
