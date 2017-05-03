@@ -24,3 +24,5 @@ def approvalEnvironments() {
 def prodEnvironments() {
     return prodEnvironments
 }
+
+return this;
