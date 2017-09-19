@@ -1,8 +1,9 @@
-def PCFDeployApiFUN
-
-def setPCFDeployApiFUN(def Array){
-    PCFDeployApiFUN = Array
-}
-def getPCFDeployApiFUN(){
-    return PCFDeployApiFUN
+class acme implements Serializable {
+    private String name
+    def setName(value) {
+        name = value
+    }
+    def getName() {
+        name
+    }
 }
