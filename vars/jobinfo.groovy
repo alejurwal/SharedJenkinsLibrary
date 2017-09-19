@@ -1,4 +1,4 @@
-def Variable3
+Variable3 = "foo"
 
 def call(def Variable1, def Variable2){
     echo Variable1
