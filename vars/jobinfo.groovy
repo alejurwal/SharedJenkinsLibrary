@@ -1,9 +1,9 @@
 class jobinfo implements Serializable {
-    private String test
+    private String name
     def setName(value) {
-        test = value
+        name = value
     }
     def getName() {
-        test
+        name
     }
 }
