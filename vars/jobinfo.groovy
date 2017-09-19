@@ -1,4 +1,4 @@
-class acme implements Serializable {
+class jobinfo implements Serializable {
     private String name
     def setName(value) {
         name = value
