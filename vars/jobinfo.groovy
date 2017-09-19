@@ -1,6 +1,8 @@
+def PCFDeployApiFUN
+
 def setPCFDeployApiFUN(def Array){
-    name = Array
+    PCFDeployApiFUN = Array
 }
 def getPCFDeployApiFUN(def Array){
-    name
+    return PCFDeployApiFUN
 }
