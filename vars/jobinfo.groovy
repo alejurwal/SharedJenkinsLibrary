@@ -1,3 +1,3 @@
 def call(body) { 
-  def pcfDeployApiFUN = "Fake"
+  def pcfDeployApiFUN = 'Fake'
 }
