@@ -1,3 +1,6 @@
 def call(body) { 
-  pcfDeployApiFUN = ['ORG': 'FUN', 'SPACE': 'webapi'] 
+  def pcfDeployApiFUN = ['ORG': 'FUN', 'SPACE': 'webapi']
+  def getpcfDeployApiFUN(){
+    return pcfDeployApiFUN
+  }
 }
