@@ -1,3 +1,3 @@
 def call(body) { 
-  pcfDeployApiFUN = 'test'
+  String pcfDeployApiFUN = ['ORG': 'FUN', 'SPACE': 'webapi'] 
 }
