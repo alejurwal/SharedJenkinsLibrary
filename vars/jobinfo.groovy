@@ -1,3 +1,5 @@
+
 def call(body) { 
-  String pcfDeployApiFUN = ['ORG': 'FUN', 'SPACE': 'webapi'] 
+  @DataBoundConstructor
+  pcfDeployApiFUN = ['ORG': 'FUN', 'SPACE': 'webapi'] 
 }
