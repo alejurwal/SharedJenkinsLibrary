@@ -4,7 +4,6 @@ appComponentVersionKeys = "accounts_appVersion"
 appReleaseFileSystemRoot = "/workerfs/release/OBP/ACCOUNTS/"
 approvalEnvironments = "QA_MT2"
 prodEnvironments = "QA_MT2"
-prodEnvironments3 = "QA_MT3"
 
 def getAppID() {
     return appID;
