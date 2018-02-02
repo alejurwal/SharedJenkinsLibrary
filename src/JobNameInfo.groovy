@@ -1,4 +1,5 @@
 #!/bin/groovy
+import src.*
 
 //Map allBuilds = [:]
 builds = [:]
