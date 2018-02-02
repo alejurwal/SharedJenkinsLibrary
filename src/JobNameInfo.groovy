@@ -1,8 +1,8 @@
 #!/bin/groovy
 import src.*
 
-//Map allBuilds = [:]
-builds = [:]
+Map Builds = [:]
+//builds = [:]
 
 def call()
 {
