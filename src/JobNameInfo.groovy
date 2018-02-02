@@ -1,5 +1,4 @@
 #!/bin/groovy
-import org.wb.*
 
 //Map allBuilds = [:]
 builds = [:]
