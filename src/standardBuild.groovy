@@ -1,5 +1,4 @@
 #!/usr/bin/groovy
-package org.wb;
 /*
 Map allBuilds = [:]
 
