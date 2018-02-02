@@ -6,5 +6,6 @@ builds = [:]
 
 def call()
 {
+    builds.add("testElement")
     def build = new standardBuild()
 }
