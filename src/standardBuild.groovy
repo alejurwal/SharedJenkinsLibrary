@@ -10,6 +10,10 @@ standardBuild() {
 def api; 
 def lib;
 
+def testing()
+{
+    echo "hello"
+}
 
 def execute()
 {
