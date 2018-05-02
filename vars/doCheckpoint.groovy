@@ -1,3 +1,4 @@
 def call() {
-  checkpoint 'IamCheckpoint'
+  sh 'echo hello'
+  sh 'echo hello2'
 }
