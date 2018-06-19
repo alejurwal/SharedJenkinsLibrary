@@ -3,8 +3,10 @@ class A {
 
   def void test() { script.println('lol') }
   
+  @NonCPS
   A(Script script) { 
     this.script = script 
     test() 
   } 
+  
 }
