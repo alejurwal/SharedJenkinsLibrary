@@ -1,4 +1,3 @@
-package org.foo
 class A { 
   Script script 
 
