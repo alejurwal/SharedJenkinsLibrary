@@ -1,10 +1,9 @@
-#!/bin/groovy
-import src.*
+class A { 
+Script script 
+def void test() { script.println('lol') }
 
-Map Builds = [matthew: 30, mark:25, luke: 40]
-//builds = [:]
-
-def call()
-{
-    def build = new standardBuild()
+A(Script script) { 
+this.script = script 
+test() 
+} 
 }
