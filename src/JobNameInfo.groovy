@@ -5,7 +5,7 @@ class A {
 
   A(Script script) { 
     this.script = script 
-    test() 
+    //test() 
   } 
   
 }
