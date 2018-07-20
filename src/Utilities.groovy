@@ -1,5 +1,7 @@
 class Utilities implements Serializable {
   def steps
+  def USERNAME
+  def PASSWORD
   Utilities(steps) {this.steps = steps}
   def shell() {
     steps.withCredentials([[$class: 'UsernamePasswordMultiBinding',credentialsId: '10dedc95-ba8a-4ffe-bca6-8dea9586c8dc', 
