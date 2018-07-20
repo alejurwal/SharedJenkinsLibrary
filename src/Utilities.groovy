@@ -1,14 +1,14 @@
 class Utilities implements Serializable {
   def steps
-  Utilities(steps) {this.steps = steps}
+  Utilities(script) {this.script = script}
   def shell() {
-    steps.withCredentials([[$class: 'UsernamePasswordMultiBinding',credentialsId: '10dedc95-ba8a-4ffe-bca6-8dea9586c8dc', 
+    script.withCredentials([[$class: 'UsernamePasswordMultiBinding',credentialsId: '10dedc95-ba8a-4ffe-bca6-8dea9586c8dc', 
     usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD']]) 
     { 
       //steps.sh "echo $USERNAME:$PASSWORD"
       //steps.sh "echo '$USERNAME:$PASSWORD'"
-      steps.sh "echo $this.USERNAME:$this.PASSWORD"
-      steps.sh 'echo $USERNAME:$PASSWORD'
+      script.sh "echo $script.USERNAME:$script.PASSWORD"
+      script.sh 'echo $USERNAME:$PASSWORD'
     }
   }
 }
