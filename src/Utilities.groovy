@@ -7,7 +7,7 @@ class Utilities implements Serializable {
     { 
       //steps.sh "echo $USERNAME:$PASSWORD"
       //steps.sh "echo '$USERNAME:$PASSWORD'"
-      steps.sh "echo $USERNAME:$PASSWORD"
+      steps.sh "echo ${env.USERNAME}:${env.PASSWORD}"
       //steps.sh "echo '${USERNAME}:${PASSWORD}'"
     }
   }
