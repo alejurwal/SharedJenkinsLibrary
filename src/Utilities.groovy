@@ -26,7 +26,6 @@ class Utilities implements Serializable {
         steps.sh(cmd)
         steps.sh(script: cmd, returnStdout: true, returnStatus: false)
       }
-    }
   }
 
 // Which you see calls _get_cmdline()
