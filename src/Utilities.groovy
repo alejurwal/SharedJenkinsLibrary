@@ -32,7 +32,7 @@ class Utilities implements Serializable {
 
   def _get_cmdline(Map arguments) {
     def command = arguments.get('command', null)
-    return cmd
+    return command
   }
 
 
