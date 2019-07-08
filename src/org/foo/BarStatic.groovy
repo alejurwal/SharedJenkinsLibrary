@@ -1,7 +1,7 @@
 package org.foo
 
 class BarStatic {
-    static def doAnShLsStatic() {
-        sh 'ls -la'
+    static def doAnShLsStatic(script) {
+        script.sh 'ls -la'
     }
 }
