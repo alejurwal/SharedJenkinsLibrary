@@ -1,5 +1,7 @@
 package org.foo
 
-static def doAnShLsStatic() {
-    sh 'ls -la'
+class BarStatic {
+    static def doAnShLsStatic() {
+        sh 'ls -la'
+    }
 }
