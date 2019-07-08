@@ -1,6 +1,6 @@
 package org.foo
 
-def doAnShLsStatic() {
+static def doAnShLsStatic() {
     sh 'ls -la'
 }
 
